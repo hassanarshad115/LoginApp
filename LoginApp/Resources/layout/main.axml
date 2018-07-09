@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:background="@android:color/background_light">
+    <TextView
+        android:text="Create an Account"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="20"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/holo_blue_bright" />
+    <Button
+        android:text="Sigh In"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:id="@+id/signInbutton1"
+        android:textColor="@android:color/background_light"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_blue_dark" />
+    <TextView
+        android:text="Or"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="20"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/textView1"
+        android:textColor="@android:color/holo_blue_bright" />
+    <Button
+        android:text="SignUp "
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:id="@+id/SighUpbutton1"
+        android:textColor="@android:color/background_light"
+        android:textAllCaps="false"
+        android:background="@android:color/holo_red_light" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:id="@+id/relativeLayout1">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:id="@+id/progressBar1"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

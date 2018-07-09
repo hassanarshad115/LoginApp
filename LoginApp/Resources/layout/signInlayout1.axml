@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007ba7">
+    <TextView
+        android:text="Login Page"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernamesignIntextView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:hint="Enter Username"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/usernameeditText1" />
+<!-- <TextView
+        android:text="Enter Password:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/paasswordsignIntextView1" />-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/passwordeditText2" />
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:id="@+id/loginbutton3"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:textAllCaps="false" />
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e04050">
+    <TextView
+        android:text="SignUp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_marginTop="0dp"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernamesignIntextView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textSize="30dp"
+        android:hint="Name"
+        android:textColor="#fff"
+        android:id="@+id/nameSignUpeditText1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textSize="30dp"
+        android:hint="Father Name"
+        android:textColor="#fff"
+        android:id="@+id/fatherNameSignUpeditText1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textSize="30dp"
+        android:hint="Email"
+        android:textColor="#fff"
+        android:id="@+id/emailSignUpeditText1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textSize="30dp"
+        android:hint="City"
+        android:textColor="#fff"
+        android:id="@+id/citySignUpeditText1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="30dp"
+        android:hint="Address"
+        android:textColor="#fff"
+        android:id="@+id/addressSignUpeditText1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textSize="30dp"
+        android:hint="Password"
+        android:textColor="#fff"
+        android:id="@+id/passwordSignUpeditText1" />
+<!-- <TextView
+        android:text="Enter Password:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/paasswordsignIntextView1" />-->
+    <Button
+        android:text="SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:id="@+id/loginbutton3"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:textAllCaps="false" />
+</LinearLayout>
