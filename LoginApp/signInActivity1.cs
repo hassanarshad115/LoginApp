@@ -13,7 +13,7 @@ using Android.Widget;
 namespace LoginApp
 {
     [Activity(Label = "signInActivity1")]
-    public class signInActivity1 : Activity
+    public class signInActivity1 : Activity 
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
